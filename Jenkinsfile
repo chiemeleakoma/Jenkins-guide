@@ -48,7 +48,7 @@ pipeline {
 		unstable {
                   echo 'This build returned an unstable status.'
                 }
-		failue {
+		failure {
                   echo 'Build failed. see logs'
                 }
               }
